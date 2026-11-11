@@ -1,0 +1,295 @@
+{
+  "student_name": "Your Full Name",
+  "student_id": "Your Student ID",
+  "llm_used": "ChatGPT",
+  "experiments": [
+    {
+      "data_size": 1000,
+      "data_type": "linear",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0007188,
+      "random_search_avg_seconds": 1.295e-06,
+      "range_search_avg_seconds": 3.012e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "linear",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0013162,
+      "random_search_avg_seconds": 7.0592e-05,
+      "range_search_avg_seconds": 6.861e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "linear",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.0560621,
+      "random_search_avg_seconds": 9.0216e-05,
+      "range_search_avg_seconds": 8.229e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "skewed",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0013699,
+      "random_search_avg_seconds": 1.354e-06,
+      "range_search_avg_seconds": 7.475e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "skewed",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0016087,
+      "random_search_avg_seconds": 6.99e-05,
+      "range_search_avg_seconds": 6.654e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "skewed",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.0447066,
+      "random_search_avg_seconds": 8.7437e-05,
+      "range_search_avg_seconds": 8.017e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "temporal",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0014534,
+      "random_search_avg_seconds": 1.335e-06,
+      "range_search_avg_seconds": 3.087e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "temporal",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0012151,
+      "random_search_avg_seconds": 7.0114e-05,
+      "range_search_avg_seconds": 6.707e-05
+    },
+    {
+      "data_size": 1000,
+      "data_type": "temporal",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.0408364,
+      "random_search_avg_seconds": 8.9021e-05,
+      "range_search_avg_seconds": 8.154e-05
+    },
+    {
+      "data_size": 10000,
+      "data_type": "linear",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0096331,
+      "random_search_avg_seconds": 1.375e-06,
+      "range_search_avg_seconds": 0.00028737
+    },
+    {
+      "data_size": 10000,
+      "data_type": "linear",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0012801,
+      "random_search_avg_seconds": 7.3231e-05,
+      "range_search_avg_seconds": 6.819e-05
+    },
+    {
+      "data_size": 10000,
+      "data_type": "linear",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.1370303,
+      "random_search_avg_seconds": 8.5782e-05,
+      "range_search_avg_seconds": 8.029e-05
+    },
+    {
+      "data_size": 10000,
+      "data_type": "skewed",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0080085,
+      "random_search_avg_seconds": 1.264e-06,
+      "range_search_avg_seconds": 0.00078651
+    },
+    {
+      "data_size": 10000,
+      "data_type": "skewed",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0013052,
+      "random_search_avg_seconds": 7.0664e-05,
+      "range_search_avg_seconds": 6.531e-05
+    },
+    {
+      "data_size": 10000,
+      "data_type": "skewed",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.1026144,
+      "random_search_avg_seconds": 8.936e-05,
+      "range_search_avg_seconds": 8.093e-05
+    },
+    {
+      "data_size": 10000,
+      "data_type": "temporal",
+      "index_type": "btree",
+      "creation_time_seconds": 0.009297,
+      "random_search_avg_seconds": 1.373e-06,
+      "range_search_avg_seconds": 0.00029342
+    },
+    {
+      "data_size": 10000,
+      "data_type": "temporal",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0010561,
+      "random_search_avg_seconds": 6.9409e-05,
+      "range_search_avg_seconds": 6.897e-05
+    },
+    {
+      "data_size": 10000,
+      "data_type": "temporal",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.0951705,
+      "random_search_avg_seconds": 8.1231e-05,
+      "range_search_avg_seconds": 8.098e-05
+    },
+    {
+      "data_size": 100000,
+      "data_type": "linear",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0804587,
+      "random_search_avg_seconds": 1.466e-06,
+      "range_search_avg_seconds": 0.00313913
+    },
+    {
+      "data_size": 100000,
+      "data_type": "linear",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0042044,
+      "random_search_avg_seconds": 6.8089e-05,
+      "range_search_avg_seconds": 0.00012991
+    },
+    {
+      "data_size": 100000,
+      "data_type": "linear",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.5290127,
+      "random_search_avg_seconds": 7.8301e-05,
+      "range_search_avg_seconds": 8.014e-05
+    },
+    {
+      "data_size": 100000,
+      "data_type": "skewed",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0714348,
+      "random_search_avg_seconds": 2.042e-06,
+      "range_search_avg_seconds": 0.00955601
+    },
+    {
+      "data_size": 100000,
+      "data_type": "skewed",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0011078,
+      "random_search_avg_seconds": 7.1662e-05,
+      "range_search_avg_seconds": 6.687e-05
+    },
+    {
+      "data_size": 100000,
+      "data_type": "skewed",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.2931726,
+      "random_search_avg_seconds": 8.3597e-05,
+      "range_search_avg_seconds": 8.203e-05
+    },
+    {
+      "data_size": 100000,
+      "data_type": "temporal",
+      "index_type": "btree",
+      "creation_time_seconds": 0.0775601,
+      "random_search_avg_seconds": 1.461e-06,
+      "range_search_avg_seconds": 0.00317272
+    },
+    {
+      "data_size": 100000,
+      "data_type": "temporal",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.002852,
+      "random_search_avg_seconds": 7.2211e-05,
+      "range_search_avg_seconds": 6.587e-05
+    },
+    {
+      "data_size": 100000,
+      "data_type": "temporal",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.546634,
+      "random_search_avg_seconds": 8.1339e-05,
+      "range_search_avg_seconds": 8.523e-05
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "linear",
+      "index_type": "btree",
+      "creation_time_seconds": 0.8685349,
+      "random_search_avg_seconds": 1.934e-06,
+      "range_search_avg_seconds": 0.03201279
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "linear",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0420459,
+      "random_search_avg_seconds": 6.7867e-05,
+      "range_search_avg_seconds": 6.77e-05
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "linear",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.6826608,
+      "random_search_avg_seconds": 8.0791e-05,
+      "range_search_avg_seconds": 8.66e-05
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "skewed",
+      "index_type": "btree",
+      "creation_time_seconds": 0.7390645,
+      "random_search_avg_seconds": 1.414e-06,
+      "range_search_avg_seconds": 0.08771756
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "skewed",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0014053,
+      "random_search_avg_seconds": 7.0023e-05,
+      "range_search_avg_seconds": 6.785e-05
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "skewed",
+      "index_type": "neural_network",
+      "creation_time_seconds": 1.2693842,
+      "random_search_avg_seconds": 8.3508e-05,
+      "range_search_avg_seconds": 7.967e-05
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "temporal",
+      "index_type": "btree",
+      "creation_time_seconds": 0.7770922,
+      "random_search_avg_seconds": 1.883e-06,
+      "range_search_avg_seconds": 0.03215542
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "temporal",
+      "index_type": "linear_regression",
+      "creation_time_seconds": 0.0278312,
+      "random_search_avg_seconds": 6.9977e-05,
+      "range_search_avg_seconds": 6.971e-05
+    },
+    {
+      "data_size": 1000000,
+      "data_type": "temporal",
+      "index_type": "neural_network",
+      "creation_time_seconds": 0.6312107,
+      "random_search_avg_seconds": 8.0467e-05,
+      "range_search_avg_seconds": 8.197e-05
+    }
+  ]
+}
